@@ -20,7 +20,6 @@ class: center, middle, inverse
 - RCS
 - CVS
 - SVN
-- Visual SourceSafe
 
 ---
 ## Other options

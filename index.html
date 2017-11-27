@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Git</title>
-    <meta charset="utf-8">
+	<head>
+		<title>Git</title>
+		<meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -88,35 +88,9 @@
       }
       #slide-how .slides .first {
         background: #fff;
-        position: absolute;
-        top: 20%;
-        left: 20%;
-        z-index: 1;
-      }
-      #slide-how .slides .second {
-        position: relative;
-        background: #fff;
-        z-index: 0;
-      }
-
-      /* Two-column layout */
-      .left-column {
-        color: #777;
-        width: 20%;
-        height: 92%;
-        float: left;
-      }
-        .left-column h2:last-of-type, .left-column h3:last-child {
-          color: #000;
-        }
-      .right-column {
-        width: 75%;
-        float: right;
-        padding-top: 1em;
-      }
-    </style>
-  </head>
-  <body>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
     <textarea id="source">
 
 class: center, middle
@@ -136,16 +110,16 @@ class: center, middle
 # Introduction
 
     </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
-    <script>
-        var slideshow = remark.create({
-            sourceUrl: 'presentation.md',
-    //	ratio: '16:9',
+		<script src="https://remarkjs.com/downloads/remark-latest.min.js">
+		</script>
+		<script>
+			var slideshow = remark.create({
+					sourceUrl: 'presentation.md',
+				// 	ratio: '16:9',
             highlightLanguage: 'γλώσσα',
-            highlightLines: true,
-            highlightStyle: 'vs'
-        });
-    </script>
-  </body>
+					highlightLines: true,
+					highlightStyle: 'vs'
+			});
+		</script>
+	</body>
 </html>

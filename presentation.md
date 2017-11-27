@@ -1,4 +1,9 @@
-# Git
+layout: true
+name: inverse
+class: center, middle, inverse
+
+---
+# [Git]
 
 ---
 ## What is it?

@@ -3,7 +3,7 @@
 ---
 ## What is it?
 
-- (D)VCS = Version Control System
+- (D)VCS = (Distributed) Version Control System
 - SCM = Source Code/Control Management
 
 --

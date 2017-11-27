@@ -27,9 +27,11 @@ class: center, middle, inverse
 - Mercurial (Hg)
 
 ---
-layout:true
+layout:false
 
+.left-column[
   ## Configuration
+]
 
 ### System wide
 

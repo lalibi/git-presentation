@@ -140,9 +140,9 @@ git commit -m "Some message"
 
 git commit -a                          # add & commit
 
-git commit -am "Some mesasge"           # add & commit w/ message 
+git commit -am "Some message"          # add & commit w/ message
 
-git commit --ammend -m "Some message"   # Repair message
+git commit --amend -m "Some message"   # Repair message
 ```
 
 --
@@ -298,7 +298,6 @@ layout: true
 ## `.gitignore`
 
 ---
-
 ### Wildcards
 
 - ?

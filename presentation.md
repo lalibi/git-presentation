@@ -185,19 +185,19 @@ git log --graph
 git log --oneline --graph --all --decorate
 ```
 ---
-layout: false
+template: inverse
 
 ## Two-tree / Three-tree architecture
 
 ---
-layout: false
+template: inverse
 
 ## `SHA` values
 
 - 40 char `SHA-1` checksums
 
 ---
-layout: false
+template: inverse
 
 ## `HEAD`
 

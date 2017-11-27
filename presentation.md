@@ -109,6 +109,11 @@ layout: true
 ## `git init`
 
 ---
+```
+git init
+```
+
+---
 layout: true
 
 ## `git add`

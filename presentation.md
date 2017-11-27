@@ -302,7 +302,7 @@ layout: true
 ### Wildcards
 
 - ?
-- [aeiou
+- [aeiou]
 - [0-9]
 
 ---

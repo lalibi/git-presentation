@@ -39,14 +39,14 @@ layout:false
 %PROGRAMFILES%\Git\etc\gitconfig
 ```
 
----
+--
 ### Only for current User (Global)
 
 ```bash
 %USERPROFILE%\.gitconfig
 ```
 
----
+--
 ### Project wide
 
 ```bash

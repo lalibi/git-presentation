@@ -11,9 +11,7 @@ class: center, middle, inverse
 - (D)VCS = (Distributed) Version Control System
 - SCM = Source Code/Control Management
 
---
-
-D = Distributed = No SPoF
+.footnote[D = Distributed = No SPoF]
 
 ---
 ## History
@@ -32,7 +30,7 @@ D = Distributed = No SPoF
 ---
 layout:true
 
-## Configuration
+  ## Configuration
 
 ### System wide
 
@@ -100,7 +98,9 @@ git help
 git help <command-name>
 ```
 
-* Use <kdb>f</kdb>, <kdb>b</kdb>, <kdb>q</kdb> to navigate
+.footnote[
+  .red[*] Use <kdb>f</kdb>, <kdb>b</kdb>, <kdb>q</kdb> to navigate
+]
 
 ---
 layout: true
@@ -132,7 +132,7 @@ layout: true
 ```bash
 git commit -m "Some message"
 
-git commit -a                           # add & commit
+git commit -a                          # add & commit
 
 git commit -am "Some mesasge"           # add & commit w/ message 
 
@@ -141,9 +141,11 @@ git commit --ammend -m "Some message"   # Repair message
 
 --
 
-- Adds all changes
-- Doesn't include unstaged and deleted
-    - +modified -new -deleted
+.footnote[
+- `-a` Adds all changes
+- `-a` Doesn't include unstaged and deleted
+  - +modified -new -deleted
+]
 
 ---
 layout: true
@@ -280,9 +282,9 @@ git clean -n    # Dry run
 git clean -f    # Force
 ```
 
---
-
-Discard changes **but only** grom working directory (i.e. untracked changes)
+.footnote[
+  Discard changes **but only** grom working directory (i.e. untracked changes)
+]
 
 ---
 layout: true

@@ -304,7 +304,8 @@ layout: true
 - [aeiou]
 - [0-9]
 
----
+--
+
 ### Examples
 
 ```

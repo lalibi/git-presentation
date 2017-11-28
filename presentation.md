@@ -145,8 +145,6 @@ git commit -am "Some message"          # add & commit w/ message
 git commit --amend -m "Some message"   # Repair message
 ```
 
---
-
 .footnote[
 - `-a` Adds all changes
 - `-a` Doesn't include unstaged and deleted

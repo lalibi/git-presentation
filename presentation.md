@@ -266,6 +266,9 @@ git reset --mixed   # Doesn't change working directory, changes staging index to
 git reset --hard    # Changes working directory and staging index to match repository
 ```
 ---
+> If we `git reset` to a previous commit, we don't lose teh last ones *just yet*. We can always reset back to them, provided we know their `SHA`. But, when we commit something new, they sit there abandonded, until they are finally garbage collected.
+
+---
 layout: true
 
 ## `git revert`
@@ -449,6 +452,10 @@ git merge --ff-only <branch-name> # Do it only if it can be done as ff
 git merge --abort
 ```
 
+.footnote[
+  .red[*] `git merge` is `fast-forward` when the `HEAD` has no changes (i.e. it is **not** an ancestor), so it does a simple commit to the receiver branch.
+]
+
 ---
 ### Example workflow
 
@@ -487,6 +494,10 @@ git stash drop
 
 git stash clear # Drops all stashes
 ```
+
+.footnote[
+  .red[*] If a stash is not specified, the top one is used.
+]
 
 ---
 layout: true
@@ -567,6 +578,10 @@ git log --oneline -5 origin/master
 git branch -r
 
 ```
+
+.footnote[
+  .red[*] The only difference between `origin/master` and other braches is that we can't "check it out". 
+]
 
 ---
 layout: true

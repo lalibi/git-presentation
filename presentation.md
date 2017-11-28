@@ -259,11 +259,16 @@ git reset HEAD <file-name>      # Unstage changes
 
 ---
 ```
-git reset --soft    # Doesn't change working directory or staging index
+# Doesn't change working directory or staging index
+# Diff between new and previous `HEAD`, show up as staged 
+git reset --soft <tree-ish>    
 
-git reset --mixed   # Doesn't change working directory, changes staging index to match repository
+# Doesn't change working directory, changes staging index to match repository
+# Diff between new and previous `HEAD`, show up as unstaged
+git reset --mixed <tree-ish>   
 
-git reset --hard    # Changes working directory and staging index to match repository
+# Changes working directory and staging index to match repository
+git reset --hard <tree-ish>
 ```
 ---
 > If we `git reset` to a previous commit, we don't lose teh last ones *just yet*. We can always reset back to them, provided we know their `SHA`. But, when we commit something new, they sit there abandonded, until they are finally garbage collected.

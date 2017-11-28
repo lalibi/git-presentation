@@ -270,6 +270,11 @@ git reset --mixed <tree-ish>
 # Changes working directory and staging index to match repository
 git reset --hard <tree-ish>
 ```
+
+.footnote[
+  - ![](https://www.google.com/s2/favicons?domain=stackoverflow.com) [version control - What's the difference between git reset --mixed, --soft, and --hard? - Stack Overflow](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard)
+]
+
 ---
 > If we `git reset` to a previous commit, we don't lose teh last ones *just yet*. We can always reset back to them, provided we know their `SHA`. But, when we commit something new, they sit there abandonded, until they are finally garbage collected.
 

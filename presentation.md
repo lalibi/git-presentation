@@ -571,7 +571,7 @@ git log --oneline origin/master
 
 git diff master..origin/master --color-words
 
-git dif  origin/master..master
+git diff origin/master..master
 
 git log --oneline -5 origin/master
 

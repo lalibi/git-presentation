@@ -603,7 +603,6 @@ git fetch <remote-name> # When it's different from `origin`
 - Fetch before push
 - Fetch before merge
 
-
 ---
 layout: true
 

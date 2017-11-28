@@ -456,16 +456,16 @@ git checkout -- <file-name> # Discard changes for file, -- = current branch
 ### Example workflow
 
 ```
-git branch <new-feature-branch>
-git branch
-git checkout <new-feature-branch>
-# Make some changes
-git commit -m "Some message"
-git diff master
-git checkout master
-# Make some changes
-git commit -am "Some message"
-git diff <new-feature-branch> --color-words
+$ git branch <new-feature-branch>
+$ git branch
+$ git checkout <new-feature-branch>
+<< Make some changes >>
+$ git commit -m "Some message"
+$ git diff master
+$ git checkout master
+<< Make some changes >>
+$ git commit -am "Some message"
+$ git diff <new-feature-branch> --color-words
 
 ```
 
@@ -494,11 +494,11 @@ git merge --abort
 ### Example workflow
 
 ```
-git merge <branch-name>
-<CONFLICT>
-<EDIT FILE MANUALLY>
-git add <file-name>
-git commit  # Git provides a default merge message
+$ git merge <branch-name>
+<< CONFLICT >>
+<< EDIT FILE MANUALLY >>
+$ git add <file-name>
+$ git commit  # Git provides a default merge message
 ```
 ---
 layout: true

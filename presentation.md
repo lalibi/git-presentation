@@ -599,7 +599,7 @@ git remote rm <alias>           # Remove a remote repos
 ---
 layout: true
 
-## `git push` & `git branch`
+## `git push`
 
 ---
 
@@ -609,6 +609,34 @@ git push -u <alias> <branch-name>  # <alias> = `origin master` (usually), -u = -
 git push                           # If tracking/upstream is already set up
 
 ```
+
+---
+```
+git push --force             # -f
+git push --force-with-lease  # safe-ish
+```
+
+.center[
+  ![](https://images.thoughtbot.com/git-push-force-with-lease/XEDULrg2QsnzIGytOMfh_XFQLB.jpg)
+]
+
+.footnote[
+- ![](https://www.google.com/s2/favicons?domain=developer.atlassian.com) [--force considered harmful; understanding git's --force-with-lease - Atlassian Developers](https://developer.atlassian.com/blog/2015/04/force-with-lease/)
+- ![](https://www.google.com/s2/favicons?domain=weiqingtoh.github.io) [Force-with-lease: an alternative to force push - Weiqing](https://weiqingtoh.github.io/force-with-lease/)
+]
+
+---
+.center[
+  ![](https://pbs.twimg.com/media/DNgEXiKXcAEYzwj.jpg)
+]
+
+---
+layout: true
+
+## `git push` & `git branch`
+
+---
+
 ```
 git branch -r   # Show remote branches
 

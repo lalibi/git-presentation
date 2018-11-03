@@ -322,7 +322,7 @@ git reset --hard <tree-ish>
 ]
 
 ---
-> If we `git reset` to a previous commit, we don't lose teh last ones *just yet*. We can always reset back to them, provided we know their `SHA`. But, when we commit something new, they sit there abandonded, until they are finally garbage collected.
+> If we `git reset` to a previous commit, we don't lose the last ones *just yet*. We can always reset back to them, provided we know their `SHA`. But, when we commit something new, they sit there abandonded, until they are finally garbage collected.
 
 ---
 layout: true

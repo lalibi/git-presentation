@@ -162,6 +162,21 @@ git add <file-name-1> <file-name-2>
 ```
 
 ---
+```
+git add -u
+
+git add -A
+```
+
+.footnote[
+- `git add . ` Stages everything, except deleted files
+- `git add -u` Stages only modified files
+- `git add -A` Stages everything
+  - = `git add .` & `git add -u`
+- ![](https://www.google.com/s2/favicons?domain=stackoverflow.com) [git add - What's the difference between "git add -u" and "git add -A"? - Stack Overflow](https://stackoverflow.com/questions/15011311/whats-the-difference-between-git-add-u-and-git-add-a)
+]
+
+---
 layout: true
 
 ## `git commit`
@@ -178,8 +193,7 @@ git commit --amend -m "Some message"   # Repair message
 ```
 
 .footnote[
-- `-a` Adds all changes
-- `-a` Doesn't include unstaged and deleted
+- `git commit -a` Adds all changes, except unstaged and deleted
   - +modified -new -deleted
 ]
 

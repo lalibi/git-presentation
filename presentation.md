@@ -228,6 +228,11 @@ git log --graph
 
 git log --oneline --graph --all --decorate
 ```
+
+.footnote[
+  - ![](https://www.google.com/s2/favicons?domain=stackoverflow.com) [What does git log --all do? - Stack Overflow](https://stackoverflow.com/questions/29756637/what-does-git-log-all-do)
+]
+
 ---
 template: inverse
 
@@ -394,6 +399,11 @@ layout: true
  !db.zip
  assets/videos/
 ```
+
+.footnote[
+  - ![](https://www.google.com/s2/favicons?domain=www.gitignore.io) [gitignore.io - Create Useful .gitignore Files For Your Project](https://www.gitignore.io/)
+  - ![](https://www.google.com/s2/favicons?domain=github.com) [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore)
+]
 
 ---
 ### Global excludes
@@ -736,8 +746,10 @@ layout: false
 - ![](https://www.google.com/s2/favicons?domain=help.github.com) [Ignoring files - User Documentation](https://help.github.com/articles/ignoring-files/)
   - ![](https://www.google.com/s2/favicons?domain=github.com) [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore)
 - ![](https://www.google.com/s2/favicons?domain=www.slideshare.net) [Git 101: Git and GitHub for Beginners](https://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners)
+- ![](https://www.google.com/s2/favicons?domain=stackoverflow.com) [git archive - What does tree-ish mean in Git? - Stack Overflow](https://stackoverflow.com/questions/4044368/what-does-tree-ish-mean-in-git)
 - ![](https://www.google.com/s2/favicons?domain=speakerdeck.com) [Git - How to unfuck // Speaker Deck](https://speakerdeck.com/mgapatrick/git-how-to-unfuck)
-  - ![](https://www.google.com/s2/favicons?domain=gist.github.com) [custom  prompt](https://gist.github.com/mgapatrick/8af91f342a2ab2ba940467bd693404b1)
+  - ![](https://www.google.com/s2/favicons?domain=gist.github.com) [custom prompt](https://gist.github.com/mgapatrick/8af91f342a2ab2ba940467bd693404b1)
 - ![](https://www.google.com/s2/favicons?domain=marklodato.github.io) [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 - ![](https://www.google.com/s2/favicons?domain=www.lynda.com) [Git Essential Training](https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html)
+- ![](https://www.google.com/s2/favicons?domain=stackoverflow.com) [What does git log --all do? - Stack Overflow](https://stackoverflow.com/questions/29756637/what-does-git-log-all-do)
 - ![](https://www.google.com/s2/favicons?domain=www.youtube.com) [Learning Git with GitKraken: Merge vs Rebase [Intermediate] - YouTube](https://www.youtube.com/watch?v=xot40u-_1FI&feature=em-subs_digest)

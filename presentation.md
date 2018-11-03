@@ -260,12 +260,12 @@ git reset HEAD <file-name>      # Unstage changes
 ---
 ```
 # Doesn't change working directory or staging index
-# Diff between new and previous `HEAD`, show up as staged 
-git reset --soft <tree-ish>    
+# Diff between new and previous `HEAD`, show up as staged
+git reset --soft <tree-ish>
 
 # Doesn't change working directory, changes staging index to match repository
 # Diff between new and previous `HEAD`, show up as unstaged
-git reset --mixed <tree-ish>   
+git reset --mixed <tree-ish>
 
 # Changes working directory and staging index to match repository
 git reset --hard <tree-ish>
@@ -344,7 +344,7 @@ layout: true
 ### Examples
 
 ```
- *.zip 
+ *.zip
  !db.zip
  assets/videos/
 ```
@@ -547,7 +547,7 @@ git remote add <alias> <url>    # Usually alias = `origin`
 
 git remote -v                   # Verbose
 
-git remote rm <alias>           # Remove a remote repos   
+git remote rm <alias>           # Remove a remote repos
 ```
 
 ---
@@ -614,7 +614,7 @@ git branch -r
 ```
 
 .footnote[
-  .red[*] The only difference between `origin/master` and other braches is that we can't "check it out". 
+  .red[*] The only difference between `origin/master` and other braches is that we can't "check it out".
 ]
 
 ---
@@ -658,9 +658,10 @@ layout: false
 
 - ![](https://www.google.com/s2/favicons?domain=help.github.com) [Set Up Git - User Documentation](https://help.github.com/articles/set-up-git/)
 - ![](https://www.google.com/s2/favicons?domain=help.github.com) [Ignoring files - User Documentation](https://help.github.com/articles/ignoring-files/)
-    - ![](https://www.google.com/s2/favicons?domain=github.com) [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore)
-- ![](https://www.google.com/s2/favicons?domain=www.slideshare.net) [Git 101: Git and GitHub for Beginners](https://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners)    
+  - ![](https://www.google.com/s2/favicons?domain=github.com) [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore)
+- ![](https://www.google.com/s2/favicons?domain=www.slideshare.net) [Git 101: Git and GitHub for Beginners](https://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners)
 - ![](https://www.google.com/s2/favicons?domain=speakerdeck.com) [Git - How to unfuck // Speaker Deck](https://speakerdeck.com/mgapatrick/git-how-to-unfuck)
-    - ![](https://www.google.com/s2/favicons?domain=gist.github.com) [custom  prompt](https://gist.github.com/mgapatrick/8af91f342a2ab2ba940467bd693404b1) 
+  - ![](https://www.google.com/s2/favicons?domain=gist.github.com) [custom  prompt](https://gist.github.com/mgapatrick/8af91f342a2ab2ba940467bd693404b1)
 - ![](https://www.google.com/s2/favicons?domain=marklodato.github.io) [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 - ![](https://www.google.com/s2/favicons?domain=www.lynda.com) [Git Essential Training](https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html)
+- ![](https://www.google.com/s2/favicons?domain=www.youtube.com) [Learning Git with GitKraken: Merge vs Rebase [Intermediate] - YouTube](https://www.youtube.com/watch?v=xot40u-_1FI&feature=em-subs_digest)

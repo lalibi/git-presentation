@@ -88,6 +88,26 @@ git config --global color.ui true
 ```
 
 ---
+```
+[color "status"]
+	added = yellow
+	changed = red
+	untracked = cyan
+[alias]
+	st = status
+	co = checkout
+	ct = commit
+	ca = commit -a
+	br = branch
+	df = diff
+	dfs = diff --staged
+	logg = log --graph --decorate --oneline
+	loga = log --graph --decorate --oneline --all
+	sst = status --short
+	dfw = diff --color-words
+```
+
+---
 layout: true
 
 ## `git help`

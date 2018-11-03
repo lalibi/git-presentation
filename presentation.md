@@ -589,7 +589,7 @@ layout: true
 ```
 git remote  # List all remote repos
 
-git remote add <alias> <url>    # Usually alias = `origin`
+git remote add <alias> <url>    # <alias> = `origin` (usually)
 
 git remote -v                   # Verbose
 
@@ -604,10 +604,12 @@ layout: true
 ---
 
 ```
-git push -u <alias> <branch-name>   # Usually `origin master`, -u = --set-upstream (sets tracking)
+git push -u <alias> <branch-name>  # <alias> = `origin master` (usually), -u = --set-upstream (sets tracking)
 
-git push                            # If tracking/upstream is already set up
+git push                           # If tracking/upstream is already set up
 
+```
+```
 git branch -r   # Show remote branches
 
 git branch -a   # Show all branches

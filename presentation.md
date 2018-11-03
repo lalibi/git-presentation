@@ -136,6 +136,18 @@ git init
 ---
 layout: true
 
+## Git Data Stores / Commands
+
+---
+.center[![](https://images.osteele.com/2008/git-transport.png)]
+
+.center.footnote[
+- `index` = `stage` = `cache`
+]
+
+---
+layout: true
+
 ## `git add`
 
 ---

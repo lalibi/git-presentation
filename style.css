@@ -22,6 +22,8 @@ h1, h2, h3 {
 	font-size: 1.6em;
 }
 .footnote {
+	font-size: small;
+	width: 80%;
 	position: absolute;
 	bottom: 3em;
 }
